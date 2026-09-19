@@ -1,9 +1,317 @@
 import WorkItem from '../types/workitem';
 
-export const works:WorkItem[] = [
-
-    {
+export const works:WorkItem[] = [{
         count:'01.',
+        id: 'etsa-music',
+        title: 'ETSA Music',
+        tagline: 'A music and audio product discovery platform for exploring equipment and accessing digital music resources.',
+        overview: 'ETSA Music is a music-focused web platform that helps customers explore audio and video equipment, as well as digital music resources such as MIDI files, karaoke tracks, and keyboard files. The platform provides detailed product and resource information, while customers interested in physical products can contact the business directly through WhatsApp to complete their purchase. It also includes a digital resource system where users can purchase credits and use them to access downloadable content.',
+        role: 'Full-Stack Developer',
+        duration: '2026',
+        category: 'Product Catalog · Digital Music Platform · Web Application',
+        platform: 'Web',
+        mainImgLink: '/etsamusic-overview-main.png',
+        logo: '/etsa-logo.png',
+        websiteLink: '',
+        androidLink: '',
+        iosLink: '',
+        techStack: [
+            {
+                title: 'Next.js',
+                svgUrl: ''
+            },
+            {
+                title: 'TypeScript',
+                svgUrl: ''
+            },
+            {
+                title: 'Node.js',
+                svgUrl: ''
+            },
+            {
+                title: 'Express.js',
+                svgUrl: ''
+            },
+            {
+                title: 'REST API',
+                svgUrl: ''
+            },
+            {
+                title: 'MongoDB',
+                svgUrl: ''
+            },
+            {
+                title: 'Razorpay',
+                svgUrl: ''
+            },
+            {
+                title: 'Git',
+                svgUrl: ''
+            },
+            {
+                title: 'Responsive Web Design',
+                svgUrl: ''
+            },
+            {
+                title: 'API Integration',
+                svgUrl: ''
+            }
+        ],
+        keyFeatures: [
+            {
+                feature:'Product catalogue and product discovery'
+            },
+            {
+                feature:'Audio and video equipment listings'
+            },
+            {
+                feature:'Product categories and browsing'
+            },
+            {
+                feature:'Product detail pages'
+            },
+            {
+                feature:'WhatsApp-based purchase enquiries'
+            },
+            {
+                feature:'Digital music resource marketplace'
+            },
+            {
+                feature:'MIDI and karaoke file sections'
+            },
+            {
+                feature:'Free and paid digital resources'
+            },
+            {
+                feature:'Credit-based download system'
+            },
+            {
+                feature:'User accounts and download tracking'
+            },
+            {
+                feature:'Razorpay payment integration'
+            },
+            {
+                feature:'Digital file downloads'
+            },
+            {
+                feature:'Search and filtering'
+            },
+            {
+                feature:'Responsive web interface'
+            },
+            {
+                feature:'WhatsApp customer support'
+            }
+        ],
+        contributions: [
+            {
+                title:"Designed and developed the platform based on the client's requirements."
+            },
+            {
+                title:"Built the frontend using Next.js and TypeScript."
+            },
+            {
+                title:"Developed REST APIs using Node.js and Express.js."
+            },
+            {
+                title:"Designed and implemented MongoDB database models."
+            },
+            {
+                title:"Built the product catalogue and category system."
+            },
+            {
+                title:"Developed product detail and discovery interfaces."
+            },
+            {
+                title:"Implemented WhatsApp-based product enquiry and purchase flow."
+            },
+            {
+                title:"Developed the digital resource and download system."
+            },
+            {
+                title:"Implemented the credit-based download functionality."
+            },
+            {
+                title:"Integrated Razorpay for digital credit purchases."
+            },
+            {
+                title:"Implemented user authentication and download tracking."
+            },
+            {
+                title:"Built API integrations between the frontend and backend."
+            },
+            {
+                title:"Developed responsive layouts for desktop and mobile."
+            },
+            {
+                title:"Deployed and maintained the production application."
+            }
+        ],
+        images: [
+            {
+                imageUrl:"/etsa-main.png"
+            },
+            {
+                imageUrl:"/etsamusic-main.png"
+            },
+            {
+                imageUrl:"/etsamusic-home.png"
+            },
+            {
+                imageUrl:"/etsamusic-product-card.png"
+            },
+            {
+                imageUrl:"/etsamusic-services.png"
+            },
+            {
+                imageUrl:"/etsa-music-product-details.png"
+            }
+        ]
+    },
+{
+        count:'02.',
+        id: 'kitmise',
+        title: 'Kitmise',
+        tagline: 'A modern product discovery platform for finding and exploring audio, video, and photography gear.',
+        overview: 'Kitmise is a product discovery platform designed to help creators easily find and explore audio, video, photography, and other creator-focused equipment. The platform organizes products into categories and provides users with useful product information in a simple and easy-to-navigate interface.',
+        role: 'Full-Stack Developer',
+        duration: 'July 2026 - August 2026',
+        category: 'Product Discovery · E-commerce · Web Application',
+        platform: 'Web',
+        mainImgLink: '/kitmise-overview-main.png',
+        logo: '/kitmise-logo.png',
+        websiteLink: 'https://www.kitmise.com/',
+        androidLink: '',
+        iosLink: '',
+        techStack: [
+            {
+                title: 'Next.js',
+                svgUrl: ''
+            },
+            {
+                title:'TypeScript',
+                svgUrl:''
+            },
+            {
+                title: 'Tailwind CSS',
+                svgUrl: ''
+            },
+            {
+                title: 'Node.js',
+                svgUrl: ''
+            },
+            {
+                title: 'Express.js',
+                svgUrl: ''
+            },
+            {
+                title: 'MongoDB',
+                svgUrl: ''
+            },
+            {
+                title: 'Mongoose',
+                svgUrl: ''
+            },
+            {
+                title: 'REST API',
+                svgUrl: ''
+            },
+            {
+                title:'Git',
+                svgUrl:''
+            },
+        ],
+        keyFeatures: [
+            {
+                feature:'Product discovery and browsing'
+            },
+            {
+                feature:'Category and subcategory-based navigation'
+            },
+            {
+                feature:'Product search and filtering'
+            },
+            {
+                feature:'Detailed product information'
+            },
+            {
+                feature:'Structured product catalogue'
+            },
+            {
+                feature:'Responsive web interface'
+            },
+            {
+                feature:'Product data management'
+            },
+            {
+                feature:'CSV-based product import system'
+            },
+            {
+                feature:'REST API for product and catalogue management'
+            }
+        ],
+        contributions: [
+            {
+                title:"Designed and developed the web application."
+            },
+            {
+                title:"Built the frontend using Next.js and TypeScript."
+            },
+            {
+                title:"Developed backend REST APIs using Node.js and Express."
+            },
+            {
+                title:"Designed the product data structure and database models."
+            },
+            {
+                title:"Implemented product categories and subcategories."
+            },
+            {
+                title:"Built the CSV product import system."
+            },
+            {
+                title:"Integrated frontend with backend APIs."
+            },
+            {
+                title:"Worked on responsive UI and overall user experience."
+            },
+            {
+                title:"Structured the application for future scalability."
+            }
+        ],
+        images: [
+            {
+                imageUrl:"/kitmise-main.png"
+            },
+            {
+                imageUrl:"/kitmise-home-screen.png"
+            },
+            {
+                imageUrl:"/kitmise-list-screen.png"
+            },
+            {
+                imageUrl:"/kitmise-category-screen.png"
+            },
+            {
+                imageUrl:"/kitmise-details-screen.png"
+            },
+            {
+                imageUrl:"/kitmise-compre-screen.png"
+            },
+            {
+                imageUrl:"/kitmise-compare-2-screen.png"
+            },
+            {
+                imageUrl:"/kitmise-detais-compare-screen.png"
+            },
+            {
+                imageUrl:"/kitmise-guide-screen.png"
+            }
+        ]
+    },
+{
+        count:'03.',
         id: 'vivaram',
         title: 'Vivaram',
         tagline: 'A hyperlocal public information platform for Kerala.',
@@ -104,8 +412,8 @@ export const works:WorkItem[] = [
               {imageUrl:"/vivaram_screen_main.png"}
         ]
     },
-    {
-        count:'02.',
+{
+        count:'04.',
         id: 'docxpire',
         title: 'DocXpire',
         tagline: 'A smart document manager that helps users track important documents and expiry dates.',
@@ -232,8 +540,8 @@ export const works:WorkItem[] = [
             },
         ]
     },
-    {
-        count:'03.',
+{
+        count:'05.',
         id: 'dayira',
         title: 'Dayira',
         tagline: 'A Quran learning companion built around consistency, reflection, and community.',
@@ -352,6 +660,116 @@ export const works:WorkItem[] = [
 
             }
         ]
+    },
+    {
+        count:'06.',
+        id: 'bermitt',
+        title: 'Bermitt',
+        tagline: 'A curated online store for discovering useful products across lifestyle, fashion, beauty, and everyday essentials.',
+        overview: 'Bermitt is an online store built on Shopify, featuring a curated selection of products across different everyday categories. The store was created with a focus on simple product discovery, clean presentation, and an easy shopping experience across desktop and mobile.',
+        role: 'Shopify Store Setup & Development',
+        duration: '2026',
+        category: 'E-commerce · Shopify',
+        platform: 'Web',
+        mainImgLink: '/bermitt-main.png',
+        logo: '/bermitt-logo.png',
+        websiteLink: 'https://bermitt.myshopify.com/',
+        androidLink: '',
+        iosLink: '',
+        techStack: [
+            {
+                title: 'Shopify',
+                svgUrl: ''
+            },
+            {
+                title: 'Shopify Theme',
+                svgUrl: ''
+            },
+            {
+                title: 'Shopify Products',
+                svgUrl: ''
+            },
+            {
+                title: 'Collections',
+                svgUrl: ''
+            },
+            {
+                title: 'Cart & Checkout',
+                svgUrl: ''
+            },
+            {
+                title: 'Responsive Web Design',
+                svgUrl: ''
+            },
+            {
+                title: 'Store Configuration',
+                svgUrl: ''
+            }
+        ],
+        keyFeatures: [
+            {
+                feature:'Product catalogue'
+            },
+            {
+                feature:'Product categories and collections'
+            },
+            {
+                feature:'Product search'
+            },
+            {
+                feature:'Product detail pages'
+            },
+            {
+                feature:'Shopping cart'
+            },
+            {
+                feature:'Shopify checkout'
+            },
+            {
+                feature:'Responsive storefront'
+            },
+            {
+                feature:'Customer account functionality'
+            },
+            {
+                feature:'Shipping and store information'
+            },
+            {
+                feature:'Contact and support pages'
+            },
+            {
+                feature:'Store policies and information pages'
+            }
+        ],
+        contributions: [
+            {
+                title:"Set up the Shopify store and configured the basic store structure."
+            },
+            {
+                title:"Selected and customized an existing Shopify theme."
+            },
+            {
+                title:"Organized products into categories and collections."
+            },
+            {
+                title:"Added and managed product information."
+            },
+            {
+                title:"Configured navigation and storefront sections."
+            },
+            {
+                title:"Set up basic store settings and policies."
+            },
+            {
+                title:"Configured the shopping and checkout flow."
+            },
+            {
+                title:"Optimized the storefront for desktop and mobile."
+            },
+            {
+                title:"Prepared the store for launch."
+            }
+        ],
+        images: []
     }
-
 ]

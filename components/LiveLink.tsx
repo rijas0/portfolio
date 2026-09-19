@@ -7,7 +7,7 @@ export default function LiveLink({ data }: { data: WorkItem }) {
     { label: "Website", href: data.websiteLink, icon: "/globe.svg" },
     { label: "Android", href: data.androidLink, icon: "/internet.svg" },
     { label: "iOS", href: data.iosLink, icon: "/window.svg" },
-  ];
+  ].filter((link) => link.href);
 
   return (
     <div>
